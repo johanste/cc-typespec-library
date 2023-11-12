@@ -1,0 +1,20 @@
+{
+  "name": "{{ cookiecutter.project_slug }}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "tspMain": "lib/main.tsp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "{{ cookiecutter.author }}",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "@typespec/compiler": "^0.50.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "latest"
+  }
+}
